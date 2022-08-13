@@ -1,0 +1,39 @@
+oo2a-website
+============
+:toc: preamble
+
+https://oo2a.de[oo2a.de] is a website based on the https://gohugo.io/[Hugo] static site generator.
+
+
+[plantuml]
+....
+@startuml
+
+node nod {
+}
+
+vertical -- [comp]
+horizontal - [comp]
+
+@enduml
+....
+
+
+Template
+--------
+
+https://geekdocs.de
+
+
+Test
+----
+
+[bash]
+....
+$ hugo server -D
+....
+
+To-Do
+-----
+
+...

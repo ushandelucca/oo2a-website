@@ -1,0 +1,42 @@
+baseURL = "/"
+theme = "hugo-geekdoc"
+
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+[languages]
+  [languages.de]
+    title = "oo2a Seite"
+    description = "Eine Internetseite"
+    languageName = "Deutsch"
+    contentDir = "content/de"
+    weight = 10
+ 
+  [languages.en]
+    title = "oo2a Site"
+    description = "A website"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 20  
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+   tag = "tags"

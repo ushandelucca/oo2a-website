@@ -1,0 +1,6 @@
+# locks
+*.lock
+
+# Generated HTML
+public
+resources/_gen
